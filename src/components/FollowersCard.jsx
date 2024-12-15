@@ -1,4 +1,3 @@
-import fbIcon from '/images/icon-facebook.svg';
 import upIcon from '/images/icon-up.svg';
 import downIcon from '/images/icon-down.svg';
 
@@ -11,7 +10,7 @@ export const FollowersCard = ({ userName, followersCount, followersText, todaysT
         <div className="my-4">
             <div className="flex justify-center gap-2">
                 {/* logo and username */}
-                <img src={socialLogo} alt="" />
+                <img src={socialLogo} alt="social logo" />
                 <p> {userName} </p>
             </div>
             <div className='w-max mx-auto mt-4'>
@@ -28,7 +27,7 @@ export const FollowersCard = ({ userName, followersCount, followersText, todaysT
                     }
                     {
                         upOrDown === 'down' &&
-                        <img src={downIcon} alt="" />
+                        <img src={downIcon} alt="downIcon" />
                     }
                 </div>
                 <div className={`flex gap-1 font-bold ${upOrDown==='up' ? `text-green-500` : `text-red-500`}`}>

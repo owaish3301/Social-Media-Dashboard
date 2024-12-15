@@ -1,6 +1,8 @@
 import { FollowersCard } from "./components/FollowersCard";
 import { Header } from "./components/Header";
+import { OverviewCard } from "./components/OverviewCard";
 import { FollowersData } from "./Data/FollowersData";
+import { overViewData } from "./Data/OverViewData";
 
 function App() {
 
@@ -16,7 +18,12 @@ function App() {
         Overview - Today
       </h1>
 
-      
+      {
+        overViewData.map((data, index)=>{
+          return (<OverviewCard {...data} key={index} />)
+        })
+      }
+
     </div>
   )
 }
