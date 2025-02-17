@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://astounding-pothos-c7d88f.netlify.app/)
+- Live Site URL: [https://astounding-pothos-c7d88f.netlify.app/](https://astounding-pothos-c7d88f.netlify.app/)
 
 ## My process
 
