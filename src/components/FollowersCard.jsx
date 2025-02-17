@@ -1,10 +1,13 @@
 import upIcon from '/images/icon-up.svg';
 import downIcon from '/images/icon-down.svg';
+import { useContext } from 'react';
+import { AppContext } from '../context/AppContext';
 
 
 export const FollowersCard = ({ userName, followersCount, followersText, todaysTrend, upOrDown, socialLogo }) => {
+  const {isDark} = useContext(AppContext);
   return (
-    <div className="w-full h-[200px] bg-slate-100 rounded-md my-4">
+    <div className={`w-full h-[200px] rounded-md my-4 ${isDark? `bg-slate-600` : `bg-slate-100`} ${window.innerWidth <= 768? ``:``}`}>
         <div className={`w-full h-1 rounded-t-md bg-blue-500`}>
         </div>
         <div className="my-4">

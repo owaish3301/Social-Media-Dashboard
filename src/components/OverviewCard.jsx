@@ -1,9 +1,12 @@
+import { useContext } from 'react';
 import downIcon from '/images/icon-down.svg';
 import upIcon from '/images/icon-up.svg';
+import { AppContext } from '../context/AppContext';
 
 export const OverviewCard = ({headerText, socialIcon, count, upOrDown, trendChangePercent}) => {
+  const {isDark} = useContext(AppContext);
   return (
-    <div className="w-full bg-slate-100 p-6 rounded-md mb-4">
+    <div className={`flex-grow flex-shrink basis-[20%] h-[128px] p-6 rounded-md mb-4 last:mb-0 ${isDark?`bg-slate-600`:`bg-slate-100`}`}>
         <div className="flex justify-between">
             <h1> {headerText} </h1>
             <img src={socialIcon} alt="socialIcon" />
