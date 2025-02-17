@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://astounding-pothos-c7d88f.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-media-dashboard-XdA5sn3T0H](https://www.frontendmentor.io/solutions/social-media-dashboard-XdA5sn3T0H)
 - Live Site URL: [https://astounding-pothos-c7d88f.netlify.app/](https://astounding-pothos-c7d88f.netlify.app/)
 
 ## My process
